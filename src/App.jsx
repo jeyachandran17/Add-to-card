@@ -112,8 +112,8 @@ function NevBar({count}){
     <div className="nevigationBar">
       <div className="nevContainer_1">
         <p className='logo'>Start Boostrap</p>
-        <button className='nev-btn1'>Home</button>
-        <button className='nev-btn1'>About</button>
+        <a href="/" className='nev-btn1'>Home</a>
+        <a href="/" className='nev-btn1'>About</a>
         {/* <button className='nev-btn2' onClick={() => setshow(!show)} >Shop <ArrowDropDownIcon /></button>  */}
         <select style={Option} className='nev-btn2'>
           <option>shop</option><br />
